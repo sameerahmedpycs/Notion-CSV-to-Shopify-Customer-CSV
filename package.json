@@ -1,0 +1,19 @@
+{
+  "name": "notion-csv-to-shopify-customer-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "processData.js",
+  "scripts": {
+    "prepare": "node index.js",
+    "readShopifyTemplate": "node scripts/readShopifyTemp.js",
+    "fixLineEndings": "node scripts/fixLineEndings.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.6.0",
+    "express": "^5.1.0"
+  }
+}
